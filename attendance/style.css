@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    text-align: center;
+    color: rgb(44, 44, 119);
+    background-color: rgb(194, 170, 34);
+    height: 150px;
+    line-height: 150px;
+}
+#menu{
+    display: flex;
+    background-color: rgb(1, 1, 65);
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+}
+#menu li{
+    list-style-type: none;
+    padding: 5px 20px;
+    text-decoration-line: underline;
+}
+#menu li:hover {
+    background-color: blue;
+    height: 30px;
+}
+#menu a {
+    line-height: 30px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+#makluman{
+    width: 350px;
+    border: 2px solid darkgrey;
+    margin: 15px auto;
+    padding: 15px;
+}
+#tajuk{
+    text-align: center;
+    margin: 20px auto;
+}
+.details{
+    font-weight: 600;
+}
+
+#senarai, #senarai th, #senarai td {
+    border: 2px solid rgb(15, 0, 97);
+    border-collapse: collapse;
+}
+#senarai th, #senarai td{
+    padding: 5px 10px;
+}
+#senarai td:first-child{
+    text-align: center;
+}
+#senarai{
+    margin: 0 auto;
+}
+
+#borang{
+    width: 350px;
+    border: 2px solid darkgrey;
+    margin: 15px auto;
+    padding: 15px;
+    display: grid;
+    background-color: rgb(218, 236, 241);
+} 
+#borang input, #borang select{
+    margin-bottom: 30px;
+    height: 25px;
+    font-size: 15px;
+}
+#borang button{
+    height: 30px;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#cetak{
+    display: block;
+    height: 30px;
+    width: 150px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+#status{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+#status input{
+    margin: 0;
+    height: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
